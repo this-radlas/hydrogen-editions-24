@@ -6,7 +6,10 @@ import { Button as Button_2 } from '/app/components/hydrogen/Button.jsx'
 export default function Hero() {
   return (
     <section className='w-full relative min-h-8 h-svh max-h-[64rem] bg-darkGray'>
-      <div className='min-h-inherit h-full mx-auto px-4 md:px-8 lg:px-10 w-full relative z-10 max-w-7xl pb-24 pt-36'>
+      <div
+        className='min-h-inherit h-full mx-auto px-4 md:px-8 lg:px-10 w-full relative z-10 max-w-7xl pb-24 pt-36'
+        style={{ left: -140, top: 66 }}
+      >
         <div className='w-auto min-h-inherit h-full items-start justify-between flex flex-col'>
           <div className='w-auto h-auto gap-4 items-start justify-center flex flex-col pt-[10vh]'>
             <Text
