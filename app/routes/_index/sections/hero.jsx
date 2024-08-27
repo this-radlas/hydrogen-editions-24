@@ -1,6 +1,7 @@
 import { Button } from '@h2/new/Button'
 import { Heading, Text } from '@h2/new/Text'
 import { Image } from '@shopify/hydrogen'
+import { Button as Button_2 } from '/app/components/hydrogen/Button.jsx'
 
 export default function Hero() {
   return (
@@ -15,10 +16,10 @@ export default function Hero() {
               color='accent'
               className='pl-1'
             >
-              Summer 2024
+              fwfwefwefwefw
             </Text>
             <Heading font='text' size='8' color='white'>
-              Building
+              sadqdw
             </Heading>
             <Heading
               font='display'
@@ -35,7 +36,29 @@ export default function Hero() {
         </div>
       </div>
       <div className='grid absolute z-0 inset-0 pointer-events-none grid-cols-2'>
-        <div />
+        <div style={{ contain: 'layout' }}>
+          <div
+            style={{
+              backgroundColor: '#aaaaaa33',
+              position: 'absolute',
+              left: 105,
+              top: 475,
+              width: 100,
+              height: 100,
+            }}
+          >
+            <div
+              style={{
+                backgroundColor: '#aaaaaa33',
+                position: 'absolute',
+                left: -5,
+                top: -4,
+                width: 100,
+                height: 100,
+              }}
+            />
+          </div>
+        </div>
         <div className='relative'>
           <div className='absolute inset-0 bg-gradient-to-r from-darkGray to-transparent to-50% z-0' />
           <Image
@@ -43,6 +66,19 @@ export default function Hero() {
             className='object-cover w-full h-full -z-10'
           />
         </div>
+        <Button>Sample Button</Button>
+        <div
+          style={{
+            backgroundColor: '#aaaaaa33',
+            position: 'absolute',
+            left: 187,
+            top: 218,
+            width: 187,
+            height: 218,
+            gridColumn: 1,
+            gridRow: 1,
+          }}
+        />
       </div>
     </section>
   )

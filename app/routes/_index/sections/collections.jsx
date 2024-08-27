@@ -7,6 +7,7 @@ import {
   Grid,
   Section,
 } from '@h2/new/Layout'
+import { Button } from '/app/components/hydrogen/Button.jsx'
 
 export default function Collections() {
   return (
@@ -43,6 +44,7 @@ export default function Collections() {
             For Everyone
           </Span>
         </Heading>
+        <Button />
       </Row>
       <Section>
         <Container className='aspect-[20/7] px-0 lg:px-0'>
