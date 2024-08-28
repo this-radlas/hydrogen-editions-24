@@ -115,7 +115,17 @@ export default function App() {
 
   return (
     <Root data-can-condense>
-      <Layout {...data} data-can-condense>
+      <Layout
+        {...data}
+        data-can-condense
+        style={{
+          width: 1440,
+          height: 5973,
+          position: 'absolute',
+          left: 153,
+          top: -184,
+        }}
+      >
         <Outlet data-can-condense />
       </Layout>
     </Root>
@@ -144,7 +154,6 @@ function Root({ children }) {
           href='https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap'
           rel='stylesheet'
         />
-
         <meta charSet='utf-8' />
         <meta
           name='viewport'
